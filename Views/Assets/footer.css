@@ -1,0 +1,7 @@
+.footer a{
+	font-family: helvetica, arial;
+	text-decoration: none;
+	color: #AFAFAF;
+	position: absolute; bottom: 0; left: 40%; right: 40%;
+	text-align: center;
+}

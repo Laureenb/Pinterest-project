@@ -1,0 +1,48 @@
+/*body{
+width: 100vw;
+height: 100vh;
+}*/
+.pagination-container{
+  margin: 0 auto;
+  width:  s237px;;
+  display: block;
+}
+.fleche{
+
+}
+.gauche{
+
+}
+.droite{
+
+}
+
+.numero-container div{
+  margin-left:1px;
+}
+.numero-container a{
+  margin-left:1px;
+}
+.numero{
+
+}
+.numero{
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #0c0f36;
+  /* width: 100%; */
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+.current{
+  font-weight: bold;
+  font-size: 20px;
+}

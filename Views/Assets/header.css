@@ -1,0 +1,252 @@
+/*body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo-header {
+    order: 1;
+    height: 50px;
+}
+
+.logo-header:hover {
+    cursor:  pointer;
+}
+img {
+    height: 100%;
+}
+
+.search-header {
+    align-self: center;
+}
+
+.search-header input[type=text] {
+    align-self: center;
+    width: 800px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius:  50px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 11px 20px 11px 50px;
+    background-image: url("https://cdn.xplace.com/images/magnifying_glass_gray.svg");
+    background-size:3%;
+    color: silver;
+}
+
+.admin-header {
+    order: 4;
+    height: 50px;
+}
+
+.admin-header:hover {
+    cursor:  pointer;
+}
+
+.upload-header {
+    order: 3;
+    height: 50px;
+}
+
+.upload-header:hover {
+    cursor:  pointer;
+}
+
+.logout-header {
+    order: 3;
+    height: 50px;
+}
+
+.logout-header:hover {
+    cursor:  pointer;
+}*/
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.header{
+  width:100%;
+  height: 80px;
+  background: #EFEFEF;
+  box-shadow: 0px 2px 6px gray;
+}
+.navbar{
+  width: 1000px;
+  height: 80px;
+  border:1px solid white;
+  float:right;
+
+}
+
+.navbar li{
+  width: 332px;
+  list-style:none;
+  float: left;
+}
+
+.navbar li a:hover {
+    cursor:  pointer;
+}
+
+.navbar li a {
+  display: block;
+  color: #0c0f36;
+  line-height:80px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 28px;
+
+}
+
+.logo {
+  width: 200px;
+  height: 80px;
+  float:left;
+
+}
+
+.logo img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+.logoBrand{
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  float: right;
+  height: 80px;
+  margin-top:20px;
+}
+
+
+@media screen and (max-width:1260px)
+{
+
+.navbar{
+  width: 800px;
+
+
+}
+
+.navbar li{
+  width: 260px;
+
+}
+
+
+
+.logo {
+  width: 200px;
+  height: 80px;
+  float:left;
+
+}
+
+.logo img {
+  display: block;
+  height: 80px;
+  width: 80px;
+  float: left;
+}
+
+
+}
+
+@media screen and (max-width: 1060px)
+{
+  .navbar{
+    width: 400px;
+
+
+  }
+
+  .navbar li{
+    width: 132px;
+
+  }
+
+
+
+  .logo {
+    width: 200px;
+    height: 80px;
+    float:left;
+
+  }
+
+  .logo img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    float: left;
+  }
+
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+
+
+  .logo {
+    width: 200px;
+    height: 80px;
+    float:left;
+    display: none;
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 400px)
+{
+  .navbar{
+    width: 320px;
+
+
+  }
+
+  .navbar li{
+    width: 100px;
+
+  }
+
+
+
+  .logo {
+    width: 200px;
+    height: 80px;
+    float:left;
+
+  }
+
+  .logo img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    float: left;
+  }
+
+}
